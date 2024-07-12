@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77c7c2 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header #branding {
+    display: flex;
+    align-items: center;
+}
+
+header #branding img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Showcase */
+#showcase {
+    background: url('https://media.istockphoto.com/id/1428749606/photo/circular-economy-concept-wooden-cubes-with-a-circular-economy-icon-on-a-green-background.jpg?s=612x612&w=0&k=20&c=6p0NBFP3ZhfCLOEJF3o_jeCLNKRR2_vq-J4cPBk3QlI=') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#showcase h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* Sections */
+section {
+    padding: 20px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input,
+form select,
+form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #77c7c2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #559a99;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
