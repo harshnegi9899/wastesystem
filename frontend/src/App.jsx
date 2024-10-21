@@ -28,11 +28,11 @@ function App() {
         </header>
         <div className="container">
           <Routes>
-          <Route path="/" component={Home} exact />
-            <Route path="/login" component={Login} />
-            <Route path="/schedule-pickup" component={SchedulePickup} />
-            <Route path="/recycling-info" component={RecyclingInfo} />
-            <Route path="/dashboard" component={Dashboard} />
+          <Route path="/" element={<Home/>} exact />
+            <Route path="/login" element={<Login/>} />
+            <Route path="/schedule-pickup" element={<SchedulePickup/>} />
+            <Route path="/recycling-info" element={<RecyclingInfo/>} />
+            <Route path="/dashboard" element={<Dashboard/>} />
 
           </Routes>
            

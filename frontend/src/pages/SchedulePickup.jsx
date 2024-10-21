@@ -10,7 +10,7 @@ const SchedulePickup = () => {
     try {
       const token = localStorage.getItem('token');
       await axios.post(
-        '/api/pickups',
+        'http://localhost:3000/api/pickups',
         { wasteType, scheduledDate },
         { headers: { Authorization: `Bearer ${token}` } }
       );

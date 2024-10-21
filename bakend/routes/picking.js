@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Pickup = require('../models/pickup');
-const auth = require('../middleware/auth');
+const auth = require('../middleware/middleware');
 
 // Schedule a new pickup
 router.post('/pickups', auth, async (req, res) => {
